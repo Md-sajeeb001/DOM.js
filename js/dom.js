@@ -43,19 +43,31 @@
 // console.log(documents.innerText)
 
 
-const section = document.querySelectorAll('section');
+// const section = document.querySelectorAll('section');
 
-for(const find of section){
-    find.style.backgroundColor = 'gray';
-    find.style.padding = '10px';
-    find.style.marginBottom = '10px';
-    find.style.borderRadius = '15px'
+// for(const find of section){
+//     find.style.backgroundColor = 'gray';
+//     find.style.padding = '10px';
+//     find.style.marginBottom = '10px';
+//     find.style.borderRadius = '15px'
 
-}
+// }
 
-const addStyle = document.getElementById('header1');
-const secondStyle = document.getElementById('header2');
-const pTag = document.getElementById('para');
-pTag.classList.remove('paraTag')
-secondStyle.classList.add('fonst-style')
-addStyle.classList.add('large-text')
+// const addStyle = document.getElementById('header1');
+// const secondStyle = document.getElementById('header2');
+// const pTag = document.getElementById('para');
+// pTag.classList.remove('paraTag')
+// secondStyle.classList.add('fonst-style')
+// addStyle.classList.add('large-text')
+
+
+
+const addStyle = document.getElementById('fav-places');
+console.log(addStyle.innerText)
+addStyle.classList.add('style-items')
+addStyle.classList.remove('style-items')
+
+const create = document.createElement('h3');
+create.innerHTML = "i love bangladesh and india";
+addStyle.appendChild(create);
+console.log(create.innerText)
