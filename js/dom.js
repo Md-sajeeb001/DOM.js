@@ -9,12 +9,53 @@
 // }
 
 
-const title = document.getElementById('product-titel');
-title.innerHTML = 'change by js'
-console.log(title);
+// const title = document.getElementById('product-titel');
+// title.innerHTML = 'change by js'
+// console.log(title);
 
-const productItems = document.getElementsByClassName('style-items')
-console.log(productItems);
-for(const product of productItems){
-    console.log(product.innerText);
+// const productItems = document.getElementsByClassName('style-items')
+// console.log(productItems);
+// for(const product of productItems){
+//     console.log(product.innerText);
+// }
+
+// const id = document.getElementsByTagName('#collaction')
+// console.log(id)
+
+// const fing = document.querySelectorAll('#collaction li');
+// console.log(fing)
+
+// const find2 = document.querySelector('#collaction li')
+// console.log(find2.innerText)
+
+
+// const dom = document.getElementById('topic dom').innerHTML = "selet all";
+// console.log(dom);
+
+// const documents = document.getElementById('collaction').style.backgroundColor = 'yellow'
+
+// const headingTag = document.getElementById('topic dom').style.textAlign = 'center'
+
+
+
+
+// console.log(headingTag)
+// console.log(documents.innerText)
+
+
+const section = document.querySelectorAll('section');
+
+for(const find of section){
+    find.style.backgroundColor = 'gray';
+    find.style.padding = '10px';
+    find.style.marginBottom = '10px';
+    find.style.borderRadius = '15px'
+
 }
+
+const addStyle = document.getElementById('header1');
+const secondStyle = document.getElementById('header2');
+const pTag = document.getElementById('para');
+pTag.classList.remove('paraTag')
+secondStyle.classList.add('fonst-style')
+addStyle.classList.add('large-text')

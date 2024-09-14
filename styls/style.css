@@ -13,3 +13,16 @@
     background-color: black;
     color: white;
 }
+.fonst-style{
+    font-size: 3em;
+    color: aqua;
+    text-align: center;
+}
+.large-text {
+    font-size: 5rem;
+    color: red;
+}
+.paraTag{
+    color: brown;
+    font-size: 10px;
+}
