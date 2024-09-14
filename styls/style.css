@@ -1,0 +1,15 @@
+#product-titel{
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+}
+
+.style-items{
+    color: brown;
+    background-color: aquamarine;
+}
+
+.marktet-places{
+    background-color: black;
+    color: white;
+}
