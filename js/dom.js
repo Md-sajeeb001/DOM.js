@@ -61,13 +61,51 @@
 // addStyle.classList.add('large-text')
 
 
+// const addStyle = document.getElementById('fav-places');
+// console.log(addStyle.innerText)
+// addStyle.classList.add('style-items')
+// addStyle.classList.remove('style-items')
 
-const addStyle = document.getElementById('fav-places');
-console.log(addStyle.innerText)
-addStyle.classList.add('style-items')
-addStyle.classList.remove('style-items')
+// const create = document.createElement('h3');
+// create.innerHTML = "i love bangladesh and india";
+// addStyle.appendChild(create);
+// console.log(create.innerText)
 
-const create = document.createElement('h3');
-create.innerHTML = "i love bangladesh and india";
-addStyle.appendChild(create);
-console.log(create.innerText)
+
+const main = document.getElementById('main-section');
+console.log(main)
+
+const headingAdd = document.createElement('h1');
+headingAdd.innerHTML = "My Favourit Food"
+main.appendChild(headingAdd);
+
+const ulAdd = document.createElement('li');
+ulAdd.innerText = "cheeeze barger";
+main.appendChild(ulAdd);
+
+const ulAdd2 = document.createElement('li');
+ulAdd2.innerText = "Dom Briyani";
+main.appendChild(ulAdd2);
+
+const ulAdd3 = document.createElement('li');
+ulAdd3.innerText = "salad";
+main.appendChild(ulAdd3);
+
+const ulAdd4 = document.createElement('li');
+ulAdd4.innerText = "borhani";
+main.appendChild(ulAdd4);
+
+
+const sectionItems = document.createElement("section");
+
+
+sectionItems.innerHTML = `
+
+<h1>fav item</h1>
+<li>phone</li>
+<li>watch</li>
+<li>tv</li>
+<li>laptop</li>
+
+`
+main.appendChild(sectionItems)
