@@ -71,41 +71,110 @@
 // addStyle.appendChild(create);
 // console.log(create.innerText)
 
+// const main = document.getElementById('main-section');
+// console.log(main)
 
-const main = document.getElementById('main-section');
-console.log(main)
+// const headingAdd = document.createElement('h1');
+// headingAdd.innerHTML = "My Favourit Food"
+// main.appendChild(headingAdd);
 
-const headingAdd = document.createElement('h1');
-headingAdd.innerHTML = "My Favourit Food"
-main.appendChild(headingAdd);
+// const ulAdd = document.createElement('li');
+// ulAdd.innerText = "cheeeze barger";
+// main.appendChild(ulAdd);
 
-const ulAdd = document.createElement('li');
-ulAdd.innerText = "cheeeze barger";
-main.appendChild(ulAdd);
+// const ulAdd2 = document.createElement('li');
+// ulAdd2.innerText = "Dom Briyani";
+// main.appendChild(ulAdd2);
 
-const ulAdd2 = document.createElement('li');
-ulAdd2.innerText = "Dom Briyani";
-main.appendChild(ulAdd2);
+// const ulAdd3 = document.createElement('li');
+// ulAdd3.innerText = "salad";
+// main.appendChild(ulAdd3);
 
-const ulAdd3 = document.createElement('li');
-ulAdd3.innerText = "salad";
-main.appendChild(ulAdd3);
-
-const ulAdd4 = document.createElement('li');
-ulAdd4.innerText = "borhani";
-main.appendChild(ulAdd4);
-
-
-const sectionItems = document.createElement("section");
+// const ulAdd4 = document.createElement('li');
+// ulAdd4.innerText = "borhani";
+// main.appendChild(ulAdd4);
 
 
-sectionItems.innerHTML = `
+// const sectionItems = document.createElement("section");
 
-<h1>fav item</h1>
-<li>phone</li>
-<li>watch</li>
-<li>tv</li>
-<li>laptop</li>
 
-`
-main.appendChild(sectionItems)
+// sectionItems.innerHTML = `
+
+// <h1>fav item</h1>
+// <li>phone</li>
+// <li>watch</li>
+// <li>tv</li>
+// <li>laptop</li>
+
+// `
+// main.appendChild(sectionItems)
+
+
+// TOTAL STUDY SUMMARY
+
+// const main = document.getElementById('main-container');
+// const createNewElement = document.createElement('section');
+// main.appendChild(createNewElement);
+
+// main.style.backgroundColor = 'aqua'
+// main.style.padding = '2rem';
+// main.style.color = 'gray';
+// main.style.border = '2px solid black';
+
+
+// const createHeading = document.createElement('h1');
+// createHeading.innerText = "My Favourit Places";
+// main.appendChild(createHeading);
+
+// const listLi = document.createElement('li');
+// listLi.innerText = "jaflong"
+// main.appendChild(listLi)
+
+// const listLi2 = document.createElement('li');
+// listLi2.innerText = "shondor boon"
+// main.appendChild(listLi2)
+
+// const listLi3 = document.createElement('li');
+// listLi3.innerText = "cox's bazar"
+// main.appendChild(listLi3)
+
+// const listLi4 = document.createElement('li');
+// listLi4.innerText = "rangmati"
+// main.appendChild(listLi4)
+
+// const findMain = document.getElementById('main-container');
+// console.log(findMain)
+// const createSection = document.createElement('section');
+// createSection.innerHTML = `
+
+//      <h1>new heading</h1>
+//      <ul>
+//         <li>heading one</li>
+//         <li>heading two</li>
+//         <li>heading three</li>
+//         <li>heading four</li>
+//      </ul>
+
+//  `
+
+//  findMain.appendChild(createSection)
+
+// //  EVENT HALDEL
+
+// function buttonThree(){
+//    document.body.style.backgroundColor = "black"
+// }
+
+
+// function buttonClick(){
+//    document.body.style.backgroundColor = 'red';
+// }
+
+// const clickBtn = document.getElementById('clickButton');
+// clickBtn.onclick = buttonClick;
+
+
+// const makeBtn = document.getElementById('makeBlue');
+// makeBtn.onclick = function make(){
+//    document.body.style.fontSize = '2rem';
+// }
