@@ -151,20 +151,37 @@
 
 // =================================================================================== //
 
-document.getElementById('inputFeild').addEventListener('keyup', function(){
-    const input = document.getElementById('inputFeild');
-    const inputText = input.value;
+// document.getElementById('inputFeild').addEventListener('keyup', function(){
+//     const input = document.getElementById('inputFeild');
+//     const inputText = input.value;
 
-    const btn = document.getElementById('delete-file');
-    if(inputText === 'MohammadSajeeb@#'){
-        btn.removeAttribute('disabled')
-    }
-    else{
-        btn.setAttribute('disabled', true)
-    }
-})
+//     const btn = document.getElementById('delete-file');
+//     if(inputText === 'MohammadSajeeb@#'){
+//         btn.removeAttribute('disabled')
+//     }
+//     else{
+//         btn.setAttribute('disabled', true)
+//     }
+// })
 
-document.getElementById('delete-file').addEventListener('click', function(){
-    const deleteFile = document.getElementById('github-file');
-    deleteFile.style.display = 'none'
+// document.getElementById('delete-file').addEventListener('click', function(){
+//     const deleteFile = document.getElementById('github-file');
+//     deleteFile.style.display = 'none'
+// })
+
+// ================================================================= //
+
+// Add a comment in comment box
+
+document.getElementById('post-btn').addEventListener('click', function(){
+    const textFeild = document.getElementById('textarea')
+    const text = textFeild.value;
+
+    const newElement = document.createElement('p');
+    newElement.innerText = text;
+
+    const main = document.getElementById('comment-box');
+    main.appendChild(newElement);
+
+    textFeild.value = '';
 })
