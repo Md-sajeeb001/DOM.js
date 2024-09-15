@@ -90,21 +90,81 @@
 
 // 1st: step get the button 
 
-document.getElementById('post-Comment').addEventListener('click', function(){
-    // second step to get the comment box area
-    const textArea = document.getElementById('textAreaBox');
+// document.getElementById('post-Comment').addEventListener('click', function(){
+//     // second step to get the comment box area
+//     const textArea = document.getElementById('textAreaBox');
     
-    // thard step output the textarea value
-    const textValue = textArea.value;
+//     // thard step output the textarea value
+//     const textValue = textArea.value;
 
-    // get the main div
-    const addComment = document.getElementById('commtent-container');
+//     // get the main div
+//     const addComment = document.getElementById('commtent-container');
     
-    // create a new element 
-    const createElement = document.createElement('p');
-    createElement.innerText = textValue;
+//     // create a new element 
+//     const createElement = document.createElement('p');
+//     createElement.innerText = textValue;
 
-    addComment.appendChild(createElement);
+//     addComment.appendChild(createElement);
 
-    textArea.value = '';
+//     textArea.value = '';
+// })
+
+// delete file from github
+
+// document.getElementById('input-field').addEventListener('keyup', function(event){
+//     const text = event.target.value;
+//     const DeleteBtn = document.getElementById('Delete-Info');
+//     if(text === 'MohammadSajeeb@'){
+//         DeleteBtn.removeAttribute('disabled')
+//     }
+//     else {
+//         DeleteBtn.setAttribute('disabled', true);
+//     }
+// })
+
+// document.getElementById('Delete-Info').addEventListener('click', function(){
+//     const fileDelete = document.getElementById('delete-file');
+//     fileDelete.style.display = 'none';
+// })
+
+
+// ================================================  * //
+
+// document.getElementById('input-field').addEventListener('keyup', function(){
+//    const input = document.getElementById('input-field');
+//    const inputText = input.value;
+
+//    const inputBtn = document.getElementById('delete-field');
+//    if(inputText === 'MohammadSajeeb@#123'){
+//     inputBtn.removeAttribute('disabled')
+//    }
+//    else{
+//     inputBtn.setAttribute('disabled', true )
+//    }
+// })
+
+
+// document.getElementById('delete-field').addEventListener('click', function(){
+//    const fileDelete = document.getElementById('file-container');
+//    fileDelete.style.display = 'none'
+// })
+
+// =================================================================================== //
+
+document.getElementById('inputFeild').addEventListener('keyup', function(){
+    const input = document.getElementById('inputFeild');
+    const inputText = input.value;
+
+    const btn = document.getElementById('delete-file');
+    if(inputText === 'MohammadSajeeb@#'){
+        btn.removeAttribute('disabled')
+    }
+    else{
+        btn.setAttribute('disabled', true)
+    }
+})
+
+document.getElementById('delete-file').addEventListener('click', function(){
+    const deleteFile = document.getElementById('github-file');
+    deleteFile.style.display = 'none'
 })
